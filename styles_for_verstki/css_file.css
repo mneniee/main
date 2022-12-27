@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site {
+    width: 1200px;
+
+
+    background-image: url(https://astv.ru/content/NewsImage/76/d3/76d3a7b3-3b5a-440a-a91c-14218dc86ef7_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+}
+body{
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.header {
+    margin-top: 20px;
+    margin-bottom: 150px;
+
+
+
+
+}
+
+.header-items {
+     display: flex;
+     justify-content: flex-end;
+     justify-content: end;
+     margin-right: 100px;
+
+
+}
+.items1 {
+
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    transition: background-color 0.2s linear ;
+
+
+}
+
+.items1:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.main {
+    display: block;
+}
+
+.nazvanie {
+    text-align: center;
+    font-size: 70px;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.nazvanie:hover {
+    color:cornflowerblue;
+}
+
+.zherta {
+    width: 120px;
+    background-color: aliceblue;
+    height: 3px;
+    border-radius: 10px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+
+}
+input {
+    margin-left: 400px;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    cursor:text;
+    margin-bottom: 70px;
+}
+.items-main {
+    display: block;
+    justify-content: center;
+
+
+}
+.items-main-1 {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: center;
+    margin-left: 30px;
+}
+.items-main-2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.item2 {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-right: 40px;
+    border-radius:20px;
+
+}
+.item2-1 {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-right: 40px;
+    border-radius:20px;
+    margin-bottom: 500px;
+}
